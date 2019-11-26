@@ -5,10 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CustomFramework.WebApiUtils.Contracts" Version="1.0.2" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="4.6.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CustomFramework.WebApiUtils.Contracts\CustomFramework.WebApiUtils.Contracts.csproj" />
-  </ItemGroup>
 </Project>
