@@ -8,6 +8,7 @@ namespace CustomFramework.WebApiUtils.Identity.Contracts.Responses
         public int ExpireInMinutes { get; set; }
         public DateTime RequestUtcDateTime { get; set; }
         public DateTime ExpireUtcDateTime { get; set; }
+        public DateTime ExpireDateTime { get; set; }
         public int UserId { get; set; }
     }
 }
